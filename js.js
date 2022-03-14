@@ -128,7 +128,7 @@ console.log("Задача 5");
 
 const back = document.getElementById("back");
 const forward = document.getElementById("forward");
-let images = document.querySelectorAll(".imgs");
+let images = document.getElementsByClassName('imgs');
 
 let n = 0;
 let row;
